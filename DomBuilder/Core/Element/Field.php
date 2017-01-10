@@ -25,13 +25,6 @@ abstract class Field extends \DomBuilder\Core\Element implements \DomBuilder\Api
     $this->_value = array(false);
     $this->_tagNum = self::$_countTags++;                
   }
-  
-  /** 
-   * Checks this field for errors.
-   * 
-   * @return ElementNode this element.
-   */   
-  public abstract function check();
 
   /** 
    * Sets a default value or returns request value.
